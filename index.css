@@ -1,0 +1,296 @@
+/* .news_body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} */
+/* Add this to your news.css file */
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar {
+    background-color: maroon;
+    margin-top: -20px; 
+}
+.navbar h1{
+   text-align: center;
+}
+.judul{
+    margin-top: 50px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px; /* Adjust as needed */
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff; /* Set text color */
+    background-color: transparent; /* Set background color */
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0; /* Change color on hover */
+}
+.judulke1{
+    font-size: 1.5rem;
+}
+.judulke1{
+    text-align: center;
+}
+
+.gmbr {
+    width: 98%;
+    margin-left: 20px;
+  }
+  
+.Furthermore{
+    margin-bottom: 5px;
+}
+
+.news_body {
+    margin-top: 0; /* Remove top margin for the body */
+}
+
+.navbar{
+    background-color: maroon;
+    color: white;
+    height: 200px;
+}
+.news_link{
+    font-size: 20px;
+    text-align: center;
+}
+.isi_berita{
+    font-size: 16px;
+}
+.tulisan_biru{
+    color: maroon; /* Warna biru */ /* Garis bawah */
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+.tulisan_biru2{
+    color: maroon; /* Warna biru */
+}
+.isi{
+    text-align: start;
+}
+.kotak_kotak18 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    max-width: 600px; /* Sesuaikan dengan lebar yang diinginkan */
+    margin: 20px auto;
+}
+
+/* Gaya untuk setiap kotak dalam loker */
+.kotak {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+.img_kotak{
+    width: 100px;
+}
+.font_kotak{
+    font-size: 12px;
+}
+
+
+.kotak_kotak18 {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 900px; /* Sesuaikan dengan lebar yang diinginkan pada mode desktop */
+    margin: 20px auto;
+}
+
+/* Gaya untuk setiap kotak dalam loker */
+.kotak {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Gaya untuk gambar dalam kotak */
+.img_kotak {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Gaya untuk teks dalam kotak */
+.font_kotak {
+    margin-top: 5px;
+}
+
+.footersatu{
+    background: rgb(66,151,195);
+    background: radial-gradient(circle, rgba(66,151,195,1) 57%, rgba(74,131,198,1) 67%);
+    color: white;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.tigatulisan{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.tulisansatu{
+   font-size: 15px;
+}
+.judul_footer{
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+}
+.isi_berita p{
+    font-size: 15px;
+}
+li{
+    font-size: 15px;
+}
+ul{
+    margin-top: 5px;
+}
+.customers_demand{
+    margin-top: -11px;
+}
+.case_study{
+    margin-top: -10px;
+}
+.bawah{
+    margin-top: 10px;
+}
+.footerkedua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-bottom: 40px;
+}
+.footerkesatu span{
+    font-size: 20px;
+}
+.footerkesatu p{
+    font-size: 15px;
+}
+
+.footerletiga{
+    background-color: black;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Media query untuk mode desktop */
+@media screen and (min-width: 601px) {
+    .kotak_kotak18 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .kotak_kotak18 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .news_body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+/* Media query untuk mode ponsel */
+@media screen and (max-width: 600px) {
+    .judul{
+        font-size: 20px;
+    }
+    .kotak_kotak18 {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 400px; /* Sesuaikan dengan lebar yang diinginkan pada mode ponsel */
+    }
+    .tigatulisan{
+        display: block;
+    }
+    .footerkedua{
+        display: block;
+    }
+    .tigatulisan{
+        margin-top: 10px;
+    }
+    .tulisansatu{
+        margin-top: 50px;
+    }
+    .footerkesatu{
+        margin-top: 30px;
+        margin-left: 4px;
+    }
+}
+.and{
+    color: black;
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a simple responsive design */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.news_link {
+    margin-top: 10px;
+}
+
+.isi_berita {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+/* Add a media query for smaller screens */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .isi_berita {
+        margin: 10px;
+    }
+}
+
+
+
